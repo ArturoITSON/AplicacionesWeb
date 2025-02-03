@@ -1,0 +1,44 @@
+body{
+	background: rgb(163,226,243);
+}
+
+.headPrincipio{
+	width: 900px;
+    	max-width: 100%;
+	word-wrap: break-word;
+
+}
+
+p{
+	font-size: 1.2em;
+}
+
+
+footer {
+	width: 900px;
+    	max-width: 100%;
+	word-wrap: break-word;
+	text-align: center;
+	
+}
+
+.margenUsualmente{
+	margin-bottom: 10px;
+	display: block;
+}
+
+.nota{
+	width: 900px;
+    	max-width: 100%;
+	word-wrap: break-word;
+
+}
+
+.final{
+	width: 900px;
+    	max-width: 100%;
+	word-wrap: break-word;
+	background: rgb(77,190,220);
+	text-align: center;
+	padding: 10px;
+}
