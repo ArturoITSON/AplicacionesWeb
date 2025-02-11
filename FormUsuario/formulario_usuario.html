@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1">
+	<title>Formulario de Entrenamiento</title>
+
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+<body>
+
+	
+	<div id="container">
+		<h1>Datos del usuario para el entrenamiento </h1>
+
+		<h3>En este formulario podras capturar tus datos para iniciar un plan de entrenamiento personalizado </h3>		
+		<form>
+			
+			<div>
+			<label for= "nombre"><b>Nombre</b></label>
+			<input type="text" name="nombre" class="inputNombre" required>
+			</div>		
+
+			<div>
+			<label><b>Fecha de nacimiento:</b></label>
+			<input type="date" name="dob" class = "inputFecha" required>
+			</div>
+
+
+			<div>
+			<label for= "contra"><b>Contraseña</b></label>
+			<input type="password" name="contra" class="inputContra" required>
+			</div>	
+
+
+			<div class="radios">
+    			<label><b>Género:</b></label>
+        			<input type="radio" name="genero" value="masculino" 					class="inputMasculino" required> <label class="generoM">						Masculino</label>
+
+        			<input type="radio" name="genero" value="femenino" 					class="inputFemenino"> <label class="generoF">						Femenino</label
+        	
+			</div>
+
+
+			<div>
+			<label><b>Tipo de entrenamiento:</b></label>
+			<select class="selectOp" required>
+				<option value="">Seleccionar:</option>
+				<option value"Fuerza">Gymnasio</option>
+				<option value"Hipertrofia">Calistenia</option>
+				<option value"Perder grasa">Mixto</option>
+			</select>
+
+			</div>
+
+
+			<div>
+			<label><b>Objetivo:</b></label>
+			<select class="selectObjetivo" required>
+				<option value="">Seleccionar:</option>
+				<option value"Fuerza">Fuerza</option>
+				<option value"Hipertrofia">Hipertrofia</option>
+				<option value"Perder grasa">Perder grasa</option>
+			</select>
+
+			</div>
+
+
+			<div>
+			<label><b>Intensidad</b></label>
+			<input type="range" min="0" max="100" class = "inputRango">
+			</div>
+
+
+			<div>
+			<label><b>Dias a entrenar:</b></label>
+			<select class="selectDias" required>
+				<option value="">Seleccionar:</option>
+				<option value"Fuerza">1</option>
+				<option value"Hipertrofia">2</option>
+				<option value"Perder grasa">3 </option>
+				<option value"Perder grasa">4 </option>
+				<option value"Perder grasa">5 </option>
+				<option value"Perder grasa">6 </option>
+				<option value"Perder grasa">7 </option>
+			</select>
+
+			</div>
+
+			<div>
+			<label><b>Imagen de perfil:</b></label>
+			<input type="file" name="perfil" accept="/image/*" class="inputImagen">
+			</div>
+
+
+
+			<div>
+			<label class="aceptoTerminos"><b>Acepto los términos y condiciones</b></label>
+    			<input type="checkbox" name="condiciones" class="inputCondiciones" required>
+			<label class="textoCondiciones">Condiciones para robarte digo utilizar tu informacion con fines estadisticos y de mejora de nuestros servicios</label>
+			
+			</div>
+			
+
+
+
+			<label></label>
+			<button type="submit">Registrar</button>
+
+
+		</form>
+		</div>
+
+</body>
+
+
+</html>
