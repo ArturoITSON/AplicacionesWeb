@@ -197,7 +197,6 @@ function agregarTarea4() {
 
 
 	    boton_completar.onclick = function () {
-	    	separacionTexto.classList.
 	        separacionTexto.classList.toggle("tachado");
 	    };
 
