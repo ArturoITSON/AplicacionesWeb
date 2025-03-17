@@ -1,0 +1,81 @@
+
+
+
+body {
+	background: lightblue;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.container{
+
+}
+
+button {
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+h3 {
+	margin-top: 50px;
+}
+
+#titulo{
+	margin-top: 20px;
+	border: 3px solid gray;
+	width: 40%;
+}
+
+#anio{
+	margin-top: 20px;
+	border: 3px solid gray;
+	width: 40%;
+}
+
+#genero{
+	margin-top: 20px;
+	border: 3px solid gray;
+	width: 40%;
+}
+
+#director{
+	margin-top: 20px;
+	border: 3px solid gray;
+	width: 40%;
+}
+
+#duracion{
+	margin-top: 20px;
+	border: 3px solid gray;
+	width: 40%;
+}
+
+#clasificacion{
+	margin-top: 20px;
+	border: 3px solid gray;
+	width: 40%;
+}
+
+#buttonAgregar{
+
+	margin-top: 20px;
+}
+
+#buttonEditar{
+
+	margin-top: 20px;
+}
+
+.seccionPelis{
+
+
+}
+
+
+hr{
+
+    height: 3px; 
+    background-color: black;
+
+
+}
